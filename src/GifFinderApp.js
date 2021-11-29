@@ -7,7 +7,9 @@ export const GifFinderApp = () => {
   return (
     <>
       <h2 className="animate__animated animate__fadeInDownBig">GifFinderPro</h2>
-      <p className="animate__animated animate__slideInUp">¡Encuentra tus gifs favoritos!</p>
+      <p className="animate__animated animate__slideInUp">
+        Find your favorite gifs!
+      </p>
 
       <AddCategory setCategories={setCategories} />
       <hr />
